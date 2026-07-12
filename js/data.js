@@ -233,19 +233,19 @@ const TESTIMONIALS = [
 const GALLERY_IMAGES = [
   {
     id: 'g-1',
-    url: '/images/HCST.JPG',
+    url: '/images/HCST (1).JPG',
     title: 'Himalaya Degree College of Science and Technology Main Campus Swabi',
     category: 'campus'
   },
   // {
   //   id: 'g-2',
-  //   url: '/images/MD-HCST.jpeg',
+  //   url: '/images/MD-HCST (1).jpeg',
   //   title: 'Director Sir Sikandar Hayat Reviewing Records',
   //   category: 'campus'
   // },
   // {
   //   id: 'g-3',
-  //   url: '/images/Principal-HCST.jpeg',
+  //   url: '/images/Principal-HCST (1).jpeg',
   //   title: 'Principal Sir Ashfaq Formulating Student Schedules',
   //   category: 'campus'
   // },
