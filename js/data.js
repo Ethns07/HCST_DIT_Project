@@ -233,7 +233,7 @@ const TESTIMONIALS = [
 const GALLERY_IMAGES = [
   {
     id: 'g-1',
-    url: '/images/HCST (1).JPG',
+    url: 'https://res.cloudinary.com/yc9datqi/image/upload/f_auto,q_auto/HCST_t5g4se',
     title: 'Himalaya Degree College of Science and Technology Main Campus Swabi',
     category: 'campus'
   },
