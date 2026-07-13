@@ -233,51 +233,39 @@ const TESTIMONIALS = [
 const GALLERY_IMAGES = [
   {
     id: 'g-1',
-    url: 'https://res.cloudinary.com/yc9datqi/image/upload/f_auto,q_auto/HCST_t5g4se',
-    title: 'Himalaya Degree College of Science and Technology Main Campus Swabi',
+    url: 'https://res.cloudinary.com/yc9datqi/image/upload/f_auto,q_auto/HCST_nogxrl',
+    title: 'HCST Campus Frontview',
     category: 'campus'
   },
-  // {
-  //   id: 'g-2',
-  //   url: '/images/MD-HCST (1).jpeg',
-  //   title: 'Director Sir Sikandar Hayat Reviewing Records',
-  //   category: 'campus'
-  // },
-  // {
-  //   id: 'g-3',
-  //   url: '/images/Principal-HCST (1).jpeg',
-  //   title: 'Principal Sir Ashfaq Formulating Student Schedules',
-  //   category: 'campus'
-  // },
+  {
+    id: 'g-2',
+    url: 'Images/G1.jpeg',
+    title: 'HCST Campus Frontview',
+    category: 'campus'
+  },
+  {
+    id: 'g-3',
+    url: 'Images/G2.jpeg',
+    title: 'Scholarship Distribution Ceremon',
+    category: 'campus'
+  },
   {
     id: 'g-4',
-    url: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80',
-    title: 'Group Study Session in the Sunshine',
-    category: 'students'
+    url: 'Images/G3.jpeg',
+    title: 'Scholarship Distribution Ceremon',
+    category: 'campus'
   },
   {
     id: 'g-5',
-    url: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80',
-    title: 'Modern Science Experimentation Practical Labs',
-    category: 'lab'
+    url: 'Images/G4.jpeg',
+    title: 'Scholarship Distribution Ceremon',
+    category: 'students'
   },
   {
     id: 'g-6',
-    url: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80',
-    title: 'Comprehensive Reference Books and Reading Desks',
+    url: 'Images/G5.jpeg',
+    title: 'Scholarship Distribution Ceremon',
     category: 'lab'
-  },
-  {
-    id: 'g-7',
-    url: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80',
-    title: 'Annual Research Workshop and Discussion Panel',
-    category: 'events'
-  },
-  {
-    id: 'g-8',
-    url: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=900&q=80',
-    title: 'Student Orientation and Welcoming Ceremony',
-    category: 'events'
   }
 ];
 

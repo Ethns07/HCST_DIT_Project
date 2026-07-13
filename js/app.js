@@ -1008,8 +1008,9 @@ function triggerLightboxZoom(index) {
   const imgEl = document.getElementById('lightbox-image');
   const captionEl = document.getElementById('lightbox-caption-title');
   const countEl = document.getElementById('lightbox-caption-count');
+  const headingEl = document.getElementById('lightbox-caption-heading');
 
-  if (!modal || !imgEl || !captionEl || !countEl) return;
+  if (!modal || !imgEl || !captionEl || !countEl || !headingEl) return;
 
   const item = lightboxFilteredList[activeLightboxIndex];
   if (item) {
@@ -1019,6 +1020,7 @@ function triggerLightboxZoom(index) {
     setTimeout(() => {
       imgEl.src = item.url;
       imgEl.alt = item.title;
+      headingEl.textContent = item.id.toUpperCase();
       captionEl.textContent = item.title;
       countEl.innerHTML = `Category: ${item.category.toUpperCase()} &bull; Image ${activeLightboxIndex + 1} of ${lightboxFilteredList.length}`;
       
